@@ -1,0 +1,275 @@
+body {
+
+overflow-x: hidden;
+background:#8f8177;
+font-family: "Lora", serif;
+margin:0px;
+ 
+}
+
+.menu {
+
+height:65px;
+width:100%;
+text-align:center;
+
+background-color:#af123aff;
+
+
+  position:fixed;
+  top:0;
+  z-index:10;
+
+}
+
+.menu a
+{
+  float: left;
+  font-weight: 600;
+  width:calc((100% / 5));
+  height:65px;
+  font-size:20px;
+  color:#ffe4ad;
+  text-decoration:none;
+
+  background-color:#af123aff;
+
+}
+
+.menu .curPage
+{
+
+
+color:#ffefe5ff;
+background-color:#7b0a2cff;
+
+
+  
+}
+
+.titleCover {
+
+height:51vh;
+max-height:300px;
+min-height:240px;
+width:100%;
+  
+  position: relative;
+  top:calc(43px - 1vh);
+  background-color:#ffefe5ff;
+  z-index:8;
+
+}
+
+.titleCover h1 {
+
+color:#af123aff;
+
+font-family: "Poltawski Nowy", serif;
+font-size:35px;
+text-align:center;
+padding-top:65px;
+position:relative;
+top:0;
+
+}
+
+.art0{
+
+margin-left:10%;
+max-width:70vw;
+
+}
+
+.art0 .artTitle h2 {
+
+color:#ffe4ad;
+font-size: 30px;
+position:relative;
+bottom:10px;
+
+background-color:#7b0a2cff;
+
+padding-left:35%;
+padding-top:10px;
+padding-bottom:10px;
+border-bottom-right-radius:50px;
+border-top-right-radius:50px;
+margin-left:-30%;
+
+
+z-index:9;
+}
+
+.art0 .artText 
+{
+position: relative;
+
+  
+}
+.art0 h3{
+color:#fdf1edff;
+font-size:30px;
+font-weight:600;
+	
+	
+}
+
+.art0 p {
+color:#ffefe5ff;
+font-size: 20px;
+margin-left:20px;
+
+}
+
+.art0 a {
+color:#f7fbc6ff;
+font-size: 23px;
+
+font-weight: 75;
+text-decoration:none;
+}
+
+.space
+{
+
+height:10vh;
+  
+}
+
+.footer {
+
+height:100px;
+width:90%;
+background-color:#7b0a2cff;
+margin-left:5%;
+border-radius:50px;
+
+  
+
+}
+
+.footer a{
+
+  float: left;
+  position:relative;
+  padding-top:58px;
+  color:#ffe4ad;
+  text-align:center;
+  bottom:20px;
+  margin-left:10%;
+  text-decoration:none;
+  
+  
+}
+
+/* Scroll Bar code from w3Schools */
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #000000ff;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #7b0a2cff;
+  border-radius:0px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #590328ff;
+  border-radius:0px;
+}
+
+::selection {
+  background: #dbb188;
+}
+
+/* Mobile Compatibility */
+@media only screen and (max-width: 600px) 
+{
+
+.titleCover {
+
+height:51vh;
+max-height:300px;
+min-height:240px;
+width:100%;
+  
+  position: relative;
+  top:calc(43px - 1vh);
+  background-color:#ffefe5ff;
+  z-index:8;
+
+}
+  
+  .art0 p {
+    font-size:16px;
+  }
+
+  .art0 h {
+    font-size:20px;
+  }
+  
+.art0
+{
+margin-left:5%;
+max-width:80vw;
+}
+
+.menu a
+{
+  float: left;
+  font-weight: 800;
+  width:calc((100% / 5));
+  height:65px;
+  font-size:16px;
+  color:#ffe4ad;
+  text-decoration:none;
+
+  background-color:#af123aff;
+
+}
+
+  .art0 .artTitle h2 {
+
+color:#ffe4ad;
+font-size: 25px;
+position:relative;
+bottom:10px;
+
+background-color:#7b0a2cff;
+
+padding-left:35%;
+padding-top:10px;
+padding-bottom:10px;
+border-bottom-right-radius:50px;
+border-top-right-radius:50px;
+margin-left:-30%;
+
+z-index:9;
+}
+
+  .titleCover h1 {
+
+color:#af123aff;
+
+font-size:30px;
+text-align:center;
+padding-top:65px;
+position:relative;
+top:0;
+
+}
+  
+  /* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+  
+}
